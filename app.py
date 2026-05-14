@@ -386,7 +386,7 @@ hr {{ border-color:{BORDER} !important; opacity:.35; margin:18px 0; }}
 
 # ─── Header ──────────────────────────────────────────────────────────────────
 import base64 as _b64
-with open("car_hero.jpg", "rb") as _f:
+with open("car.png", "rb") as _f:
     _car_b64 = _b64.b64encode(_f.read()).decode()
 
 st.markdown(f"""
