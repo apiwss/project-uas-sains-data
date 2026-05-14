@@ -17,7 +17,7 @@ import pickle, json, warnings
 warnings.filterwarnings('ignore')
 
 # ── Load & Clean ──────────────────────────────────────────────────────────────
-df = pd.read_csv('Car_sales - Car_sales.csv')
+df = pd.read_csv('Car_sales.csv')
 df_clean = df.dropna(subset=['Price_in_thousands'])
 
 numeric_cols = ['Engine_size', 'Horsepower', 'Wheelbase', 'Width', 'Length',
