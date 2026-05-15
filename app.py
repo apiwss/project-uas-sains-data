@@ -385,7 +385,7 @@ hr {{ border-color:{BORDER} !important; opacity:.35; margin:18px 0; }}
    RESPONSIVE DESIGN — MOBILE / TABLET
 ═════════════════════════════════════════════════════════════ */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {{
 
     .block-container {{
         padding: 1.2rem 1rem 2rem !important;
@@ -459,7 +459,7 @@ hr {{ border-color:{BORDER} !important; opacity:.35; margin:18px 0; }}
     }}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {{
 
     html, body {{
         overflow-x: hidden !important;
@@ -541,7 +541,7 @@ hr {{ border-color:{BORDER} !important; opacity:.35; margin:18px 0; }}
     }}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {{
 
     .ap-header h1 {{
         font-size: 1.05rem;
@@ -566,7 +566,7 @@ hr {{ border-color:{BORDER} !important; opacity:.35; margin:18px 0; }}
         font-size: 0.6rem !important;
         padding: 6px 1px !important;
     }}
-}
+{{
 </style>
 """, unsafe_allow_html=True)
 
