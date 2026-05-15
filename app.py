@@ -457,7 +457,7 @@ hr {{ border-color:{BORDER} !important; opacity:.35; margin:18px 0; }}
         font-size: 0.72rem;
         padding: 12px 14px;
     }}
-}
+}}
 
 @media screen and (max-width: 768px) {{
 
@@ -539,7 +539,7 @@ hr {{ border-color:{BORDER} !important; opacity:.35; margin:18px 0; }}
         font-size: 0.66rem;
         line-height: 1.5;
     }}
-}
+}}
 
 @media screen and (max-width: 480px) {{
 
