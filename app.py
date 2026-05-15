@@ -582,7 +582,7 @@ st.markdown(f"""
     <h1>AutoPrice <span>AI</span></h1>
     <p>Masukkan spesifikasi teknis kendaraan untuk mendapatkan estimasi harga pasar<br>
        secara otomatis menggunakan Machine Learning · Linear Regression</p>
-    <span class="ap-badge">MATAKULIAH SAINS DATA &nbsp;·&nbsp; FINAL PROJECT</span>
+   <span class="ap-badge">FINAL PROJECT SAINS DATA &nbsp;·&nbsp; RIZKY AFRIANTI 237006168</span>
   </div>
 </div>
 """, unsafe_allow_html=True)
