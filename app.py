@@ -381,6 +381,192 @@ hr {{ border-color:{BORDER} !important; opacity:.35; margin:18px 0; }}
     line-height:1.6;
 }}
 .ap-footer b {{ color:{LIME}; font-family:'Space Mono',monospace; }}
+/* ═════════════════════════════════════════════════════════════
+   RESPONSIVE DESIGN — MOBILE / TABLET
+═════════════════════════════════════════════════════════════ */
+
+@media screen and (max-width: 1024px) {
+
+    .block-container {{
+        padding: 1.2rem 1rem 2rem !important;
+    }}
+
+    .ap-header {{
+        flex-direction: column;
+        text-align: center;
+        padding: 22px 18px;
+        gap: 16px;
+    }}
+
+    .ap-car-img {{
+        width: 140px;
+    }}
+
+    .ap-header h1 {{
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }}
+
+    .ap-header p {{
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }}
+
+    .res-price {{
+        font-size: 2.2rem;
+    }}
+
+    .res-card {{
+        padding: 20px 16px;
+    }}
+
+    .stitle {{
+        font-size: 0.72rem;
+        letter-spacing: 1px;
+    }}
+
+    table.sp-tbl td {{
+        font-size: 0.75rem !important;
+    }}
+
+    [data-testid="stTabs"] [data-baseweb="tab"] {{
+        padding: 8px 10px;
+        font-size: 0.75rem;
+    }}
+
+    div.stButton > button {{
+        font-size: 0.88rem !important;
+        padding: 12px 0 !important;
+    }}
+
+    div[data-testid="column"] div.stButton > button {{
+        font-size: 0.7rem !important;
+        padding: 8px 2px !important;
+    }}
+
+    .sb-card {{
+        padding: 11px 12px;
+    }}
+
+    .sb-val,
+    .sb-val2 {{
+        font-size: 1.05rem;
+    }}
+
+    .ap-footer {{
+        font-size: 0.72rem;
+        padding: 12px 14px;
+    }}
+}
+
+@media screen and (max-width: 768px) {
+
+    html, body {{
+        overflow-x: hidden !important;
+    }}
+
+    .block-container {{
+        padding: 0.8rem 0.7rem 2rem !important;
+    }}
+
+    .ap-header {{
+        border-radius: 12px;
+        padding: 18px 14px;
+    }}
+
+    .ap-car-img {{
+        width: 110px;
+    }}
+
+    .ap-header h1 {{
+        font-size: 1.25rem;
+    }}
+
+    .ap-header p {{
+        font-size: 0.74rem;
+    }}
+
+    .ap-badge {{
+        font-size: 0.55rem;
+        padding: 3px 10px;
+    }}
+
+    .res-price {{
+        font-size: 1.8rem;
+    }}
+
+    .res-sub {{
+        font-size: 0.72rem;
+    }}
+
+    .seg-badge {{
+        font-size: 0.62rem;
+        padding: 4px 12px;
+    }}
+
+    .g-labels {{
+        font-size: 0.58rem;
+    }}
+
+    .g-pct {{
+        font-size: 0.58rem;
+    }}
+
+    table.sp-tbl td {{
+        padding: 5px 2px;
+        font-size: 0.68rem !important;
+    }}
+
+    [data-testid="stDataFrame"] td {{
+        font-size: 0.68rem !important;
+    }}
+
+    [data-testid="stDataFrame"] th {{
+        font-size: 0.65rem !important;
+    }}
+
+    .stitle {{
+        font-size: 0.66rem;
+        margin: 16px 0 8px;
+    }}
+
+    div.stButton > button {{
+        border-radius: 8px !important;
+        font-size: 0.8rem !important;
+    }}
+
+    .ap-footer {{
+        font-size: 0.66rem;
+        line-height: 1.5;
+    }}
+}
+
+@media screen and (max-width: 480px) {
+
+    .ap-header h1 {{
+        font-size: 1.05rem;
+    }}
+
+    .res-price {{
+        font-size: 1.5rem;
+    }}
+
+    .sb-val,
+    .sb-val2 {{
+        font-size: 0.9rem;
+    }}
+
+    .ap-header p,
+    .ap-footer,
+    .res-sub {{
+        font-size: 0.62rem;
+    }}
+
+    div[data-testid="column"] div.stButton > button {{
+        font-size: 0.6rem !important;
+        padding: 6px 1px !important;
+    }}
+}
 </style>
 """, unsafe_allow_html=True)
 
