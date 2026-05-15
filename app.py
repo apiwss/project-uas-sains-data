@@ -579,7 +579,7 @@ st.markdown(f"""
 <div class="ap-header">
   <img class="ap-car-img" src="data:image/jpeg;base64,{_car_b64}" alt="car"/>
   <div>
-    <h1>Prediksi <span>Harga Mobil</span></h1>
+    <h1>AutoPrice <span>AI</span></h1>
     <p>Masukkan spesifikasi teknis kendaraan untuk mendapatkan estimasi harga pasar<br>
        secara otomatis menggunakan Machine Learning · Linear Regression</p>
     <span class="ap-badge">MATAKULIAH SAINS DATA &nbsp;·&nbsp; FINAL PROJECT</span>
