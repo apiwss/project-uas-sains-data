@@ -22,7 +22,7 @@ TEAL    = "#4DFFCC"
 
 # ─── Page config ─────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Prediksi Harga Mobil",
+    page_title="AutoPrice AI",
     page_icon="🚗",
     layout="wide",
     initial_sidebar_state="expanded"
